@@ -1,0 +1,25 @@
+body,h1,h2,h3,h4,h5,h6,input,ol,ul,dl,dd,p,form{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+img{
+	vertical-align: top;
+	border: 0;
+}
+input,button{
+	outline: none;
+	border: 0;
+	padding: 0;
+}
+.after::after{
+				content: "";
+				display:block;
+				clear: both;
+				zoom: 1;
+}

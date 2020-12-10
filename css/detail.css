@@ -1,0 +1,370 @@
+            body {
+                background-color: #fff!important;
+                ;
+            }
+            
+            .content {
+                margin: 30px auto;
+            }
+            
+            .goodsDetail {
+                width: 100%;
+                height: 500px;
+                display: flex;
+            }
+            
+            .goodsDetail>.enlargeBox {
+                width: 410px;
+                height: 100%;
+                margin-right: 20px;
+                display: flex;
+                flex-direction: column;
+                border: 1px solid #333;
+            }
+            
+            .goodsDetail>.enlargeBox>.show {
+                width: 400px;
+                height: 400px;
+                border-bottom: 1px solid #333;
+            }
+            
+            .goodsDetail>.enlargeBox>.list {
+                flex: 1;
+                box-sizing: border-box;
+                padding: 0 20px;
+                display: flex;
+                align-items: center;
+            }
+            
+            .goodsDetail>.enlargeBox>.list>p {
+                width: 80px;
+                height: 80px;
+                margin-right: 10px;
+                margin-bottom: 0;
+                border: 1px solid #333;
+                cursor: pointer;
+            }
+            
+            .goodsDetail>.enlargeBox>.list>p.active {
+                border-color: red;
+            }
+            
+            .goodsDetail>.goodsInfo {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                box-sizing: border-box;
+                padding: 30px;
+            }
+            
+            .goodsDetail>.goodsInfo>.desc {
+                font-size: 30px;
+            }
+            
+            .goodsDetail>.goodsInfo>.price {
+                font-size: 20px;
+            }
+            
+            .goodsDetail>.goodsInfo>.price>span {
+                font-size: 30px;
+            }
+            
+            .goodsDetail>.goodsInfo>.num {
+                display: flex;
+            }
+            
+            .goodsDetail>.goodsInfo>.num>button {
+                width: 40px;
+                height: 40px;
+            }
+            
+            .goodsDetail>.goodsInfo>.num>input {
+                height: 43px;
+                width: 75px;
+                text-align: center;
+                border: none;
+            }
+            
+            .goodsNav {
+                margin-top: 30px;
+            }
+            
+            .content .goodsDetail .enlargeBox .imgBox {
+                position: relative;
+                width: 400px;
+                height: 400px;
+                border: 1px solid #eee;
+            }
+            
+            .content .goodsDetail .enlargeBox .imgBox a img {
+                display: block;
+                width: 400px;
+                height: 400px;
+            }
+            
+            .content .goodsDetail .enlargeBox .imgBox1 {
+                /* margin-top: 10px; */
+            }
+            
+            .content .goodsDetail .enlargeBox .imgBox1 .smBox {
+                position: relative;
+                float: left;
+                width: 340px;
+                height: 64px;
+                /* margin: 0 12px; */
+                overflow: hidden;
+                border-top: 1px solid #333;
+                width: 100%;
+            }
+            
+            .content .goodsDetail .enlargeBox .imgBox1 .smBox ul {
+                left: 0px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 398px;
+                height: 64px;
+            }
+            
+            .content .goodsDetail .enlargeBox .imgBox1 .smBox ul li {
+                float: left;
+                width: 60px;
+                height: 60px;
+                border: 2px solid transparent;
+                margin-right: 5px;
+                cursor: pointer;
+                margin-left: 10px;
+            }
+            
+            .content .goodsDetail .enlargeBox .imgBox1 .smBox ul li img {
+                display: block;
+                width: 60px;
+                height: 60px;
+            }
+            
+            .content .goodsDetail .enlargeBox .botImg {
+                height: 20px;
+                line-height: 20px;
+                margin-top: 10px;
+            }
+            
+            .content .goodsDetail .enlargeBox .botImg .z-item {
+                float: left;
+                cursor: pointer;
+                margin-top: -7px;
+                margin-right: 5px;
+                margin-left: 17px;
+                line-height: 20px;
+            }
+            
+            .content .goodsDetail .enlargeBox .botImg .z-item a {
+                color: #999;
+                display: inline-block;
+                line-height: 18px;
+            }
+            
+            .content .goodsDetail .enlargeBox .botImg .z-item a i {
+                display: block;
+                float: left;
+                width: 16px;
+                height: 16px;
+                background: url(https://res.suning.cn/project/pdsWeb/csspc2017/images/f-icons-ex1.png?v=1604977855);
+                background-position: -428px -1004px;
+            }
+            
+            .goodsInfo .proinfo-title {
+                padding: 13px 10px 12px;
+                background: #fff;
+            }
+            
+            .goodsInfo .proinfo-title h1 {
+                font: 700 16px/1.5 \5FAE\8F6F\96C5\9ED1;
+                color: #222;
+                _margin-left: -3px;
+                word-break: break-all;
+                min-height: 24px;
+            }
+            
+            .goodsInfo .proinfo-title h2 {
+                font: normal 14px/18px \5FAE\8F6F\96C5\9ED1;
+                color: #f60;
+                margin-top: 3px;
+                _margin-left: -3px;
+                word-break: break-all;
+            }
+            
+            .goodsInfo .proinfo-title h1 span {
+                background-color: #ff4600;
+                padding: 0 1px;
+                float: left;
+                min-width: 42px;
+                height: 20px;
+                margin: 2px 5px 0 0;
+                font-size: 12px;
+                font-weight: 400;
+                text-align: center;
+                color: #fff;
+                line-height: 20px;
+                vertical-align: middle;
+            }
+            
+            .goodsInfo .proinfo-title h1 span.cs i {
+                float: left;
+                padding: 0 4px;
+            }
+            
+            .goodsInfo .proinfo-title h1 span.cs .cs-zy {
+                background: #fff;
+                color: #ff4600;
+                height: 18px;
+                line-height: 18px;
+                vertical-align: top;
+                margin-top: 1px;
+                padding: 0 4px;
+            }
+            
+            .goodsInfo .money1 {
+                padding-top: 12px;
+                position: relative;
+                height: 132px;
+                top: -65px;
+            }
+            
+            .goodsInfo .money1 dl {
+                margin-bottom: 2px;
+            }
+            
+            .goodsInfo .money1 dl .mon-dt {
+                margin-top: 8px;
+                float: left;
+                width: 70px;
+                padding-left: 10px;
+                color: #999;
+                overflow: hidden;
+            }
+            
+            .goodsInfo .money1 dl .mon-dt span {
+                display: inline-block;
+                width: 6em;
+                letter-spacing: .5em;
+            }
+            
+            .goodsInfo .money1 dl .mon-dd {
+                height: 30px;
+                margin-left: 80px;
+                width: 380px;
+            }
+            
+            .goodsInfo .money1 dl .mon-dd span:nth-of-type(1) {
+                height: 28px;
+                font: 700 30px/25px Tahoma;
+                color: #e00;
+            }
+            
+            .goodsInfo .money1 dl .mon-dd span:nth-of-type(1) i {
+                font-size: 18px;
+            }
+            
+            .goodsInfo .money1 dl .mon-dd span:nth-of-type(1) span {
+                font-size: 24px;
+            }
+            
+            .goodsInfo .money1 .money-img {
+                position: absolute;
+                width: 243px;
+                height: 128px;
+                right: 80px;
+                top: 0;
+            }
+            
+            .goodsInfo .money1 .money-img img:nth-of-type(2) {
+                position: absolute;
+                top: 15px;
+                right: 24px;
+                width: 100px;
+                height: 100px;
+            }
+            
+            .goodsInfo .money-dl {
+                margin-top: 10px;
+            }
+            
+            .goodsInfo .money-dl dt {
+                float: left;
+                width: 70px;
+                padding-left: 10px;
+                color: #999;
+                overflow: hidden;
+            }
+            
+            .goodsInfo .money-dl dd {
+                float: left;
+                width: 300px;
+                height: 30px;
+                line-height: 30px;
+            }
+            
+            .goodsInfo .money-dl dd a:nth-of-type(1) {
+                background-image: url(https://res.suning.cn/project/pdsWeb/csspc2017/images/f-icons-ex1.png?v=1604977855);
+                background-position: -1026px -792px;
+                width: 22px;
+                height: 30px;
+                display: block;
+                float: left;
+                text-align: center;
+            }
+            
+            .goodsInfo .money-dl dd input {
+                float: left;
+                width: 25px;
+                height: 18px;
+                padding: 5px;
+                border: 1px solid #ddd;
+                margin: 0 5px;
+                text-align: center;
+                height: 30px;
+            }
+            
+            .goodsInfo .money-dl dd a:nth-of-type(2) {
+                background-image: url(https://res.suning.cn/project/pdsWeb/csspc2017/images/f-icons-ex1.png?v=1604977855);
+                background-position: -891px -696px;
+                width: 22px;
+                height: 30px;
+                display: block;
+                float: left;
+                text-align: center;
+            }
+            
+            .goodsDetail .imgbig {
+                position: absolute;
+                top: 63px;
+                left: 53%;
+                transform: translateX(-50%);
+                width: 400px;
+                height: 400px;
+                border: 1px solid #eee;
+                background-size: 18px 18px;
+                overflow: hidden;
+                display: none;
+                background: url(https://imgservice.suning.cn/uimg1/b2c/image/qLzwbyLS1AAuDiz-7Nz4ug.jpg_800w_800h_4e) no-repeat 800px 800px;
+                z-index: 9999;
+            }
+            
+            .goodsDetail .imgbig img {
+                position: absolute;
+            }
+            
+            .enlargeBox .imgBox .shade {
+                width: 200px;
+                height: 200px;
+                z-index: 1;
+                cursor: move;
+                border: 1px solid #aaa;
+                background: #fede4f 50% top no-repeat;
+                position: absolute;
+                bottom: 0;
+                pointer-events: none;
+                display: none;
+                opacity: .5;
+            }
